@@ -38,17 +38,9 @@
 
 
 - (IBAction)enterPressed {
-    NSLog(@"Olena 1");
-
     [self.brain pushOperand:[self.display.text doubleValue]];
-    NSLog(@"Olena 2");
     self.userIsInTheMiddleOfEnteringANumber = NO;
-    NSLog(@"Olena 3");
 }
-//- (IBAction)enterPressed {
-//    [self.brain pushOperand:[self.display.text doubleValue]];
-//    self.userIsInTheMiddleOfEnteringANumber = NO;
-//}
 
 
 - (IBAction)digitPressed:(UIButton *)sender {
